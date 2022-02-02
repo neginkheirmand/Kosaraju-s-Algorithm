@@ -28,6 +28,15 @@ def visit(v):
         pass
 
 
+def putInComponent(v, c):
+    if v in SCC.keys:
+        pass
+    else:
+        SCC[v] = c
+        for n in getNeighbors(v):
+            putInComponent(n,c)
+
+
 def findSCC():
     
     #Mark all vertices unvisited
