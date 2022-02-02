@@ -9,7 +9,12 @@ SCC = {} # dictinary of (key = vertex ,value = rootVertex) values
 graph = {}
 
 def addEdge(v1 , v2):
-    
+    """Add Edges (and vertices) to the graph
+
+    Args:
+        v1 (int): vertex 1
+        v2 (int): vertex 2
+    """
     if graph.get(v1) is None:
         graph[v1] = [v2]
     else:
@@ -19,9 +24,25 @@ def addEdge(v1 , v2):
         graph[v2] = []
 
 def getNeighbors(v):
+    """Gets out-neigbors of vertex v
+
+    Args:
+        v (int): number of vertex
+
+    Returns:
+        list: out-neighbors of vertex v
+    """
     return graph[v]
 
 def getInNeighbors(v):
+    """Gets in-neighbors of vertex v
+
+    Args:
+        v (int): vertex number
+
+    Returns:
+        list: in-neighbors of vertex v
+    """
     neighbors =[]
     for n in graph.keys():
         if v in graph[n] :
@@ -29,6 +50,11 @@ def getInNeighbors(v):
     return neighbors
 
 def visit(v):
+    """Traverses the Vertices
+
+    Args:
+        v (int): vertex number
+    """
     if visited[v] is False:
         visited[v] = True
         for n in getNeighbors(v):
@@ -39,6 +65,12 @@ def visit(v):
 
 
 def putInComponent(v, c):
+    """Finds the containing component of the vertex v
+
+    Args:
+        v (int ): vertex number
+        c (int): compoonent root vertex
+    """
     if v in SCC.keys():
         pass
     else:
@@ -48,7 +80,11 @@ def putInComponent(v, c):
 
 
 def findSCC():
-    
+    """finds the strongly connected components of a graph
+
+    Returns:
+        list: list of vertecis or the strongly connected components
+    """
     #Mark all vertices unvisited
     for v in graph.keys():
         visited[v] = False
