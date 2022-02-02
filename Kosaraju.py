@@ -41,7 +41,10 @@ def findSCC():
     
     #Mark all vertices unvisited
     visited = [False * len(graph)]
+    
+    #Visit all vetices
     for v in graph.keys:
         visit(v)
+    
     
             
