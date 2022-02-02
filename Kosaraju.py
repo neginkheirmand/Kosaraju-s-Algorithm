@@ -91,46 +91,46 @@ res = findSCC()
 print(res,"\n\n\n")
 
 
-# visited.clear()
-# ListOfVertices.clear()
-# SCC.clear()
-# graph.clear()
-# res.clear()
-# # testing with values
-# # test 2
-# addEdge(0,1)
-# addEdge(1,2)
-# addEdge(2,3)
-# addEdge(3,4)
+visited.clear()
+ListOfVertices.clear()
+SCC.clear()
+graph.clear()
+res.clear()
+# testing with values
+# test 2
+addEdge(0,1)
+addEdge(1,2)
+addEdge(2,3)
+addEdge(3,4)
 
-# res = findSCC()
-
-    
-    
-# print(res,"\n\n\n")
-
-
-# visited.clear()
-# ListOfVertices.clear()
-# SCC.clear()
-# graph.clear()
-# res.clear()
-# # testing with values
-# # test 2
-# addEdge(0,1)
-# addEdge(1,2)
-# addEdge(2,3)
-# addEdge(3,4)
-# addEdge(4,3)
-# addEdge(3,2)
-# addEdge(2,1)
-# addEdge(1,0)
-
-# res = findSCC()
+res = findSCC()
 
     
     
-# print(res,"\n\n\n")
+print(res,"\n\n\n")
+
+
+visited.clear()
+ListOfVertices.clear()
+SCC.clear()
+graph.clear()
+res.clear()
+# testing with values
+# test 2
+addEdge(0,1)
+addEdge(1,2)
+addEdge(2,3)
+addEdge(3,4)
+addEdge(4,3)
+addEdge(3,2)
+addEdge(2,1)
+addEdge(1,0)
+
+res = findSCC()
+
+    
+    
+print(res,"\n\n\n")
 
 visited.clear()
 ListOfVertices.clear()
