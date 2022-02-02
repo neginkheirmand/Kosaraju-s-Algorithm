@@ -46,5 +46,13 @@ def findSCC():
     for v in graph.keys:
         visit(v)
     
+    #Segmentation
+    for v in ListOfVertices:
+        putInComponent(v,v)
     
+    res = {}
+    for c ,vs in SCC.items():
+        res[vs] = [c] if vs not in res.keys() else res[vs] + [c]
+    
+    return res.values   
             
