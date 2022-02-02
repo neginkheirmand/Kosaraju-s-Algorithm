@@ -3,7 +3,7 @@
 
 
 visited = [] 
-ListOfVerteces = [] # An ordered list of vertices
+ListOfVertices = [] # An ordered list of vertices
 SCC = {} # dictinary of (key = vertex ,value = rootVertex) values
 
 graph = {}
@@ -17,7 +17,17 @@ def addEdge(v1 , v2):
 def getNeighbors(v):
     return graph[v]
     
-    
+
+def visit(v):
+    if visited[v] is False:
+        visited[v] = True
+        for n in getNeighbors(v):
+            visit(n)
+        ListOfVertices.append(v)
+    else:
+        pass
+
+
 def findSCC():
     
     #Mark all vertices unvisited
