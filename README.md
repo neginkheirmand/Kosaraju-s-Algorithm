@@ -4,13 +4,13 @@
 
 first lets define strongly connected graphs:
 
-a directed graph is an strongly connected graph if there is a path between all pairs of vertices, for example:
+a directed graph is a strongly connected graph if there is a path between all pairs of vertices, for example:
 
 ![graph2](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2.png?raw=true)
 
 
 
-this graph is an strongly connected graph because no matter which vertex you chose there will always be a path to any other vertex of the graph. 
+this graph is a strongly connected graph because no matter which vertex you chose there will always be a path to any other vertex of the graph. 
 
 for example if you start from the vertex a0:
 
@@ -30,7 +30,7 @@ and to a1:
 
 ![graph2 - a0-a1](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2%20-%20a0-a1.png?raw=true)
 
-these are only some of the paths existent.
+these are only some of the existing paths.
 
 Now you can probably tell what a strongly connected component is, its a node of the graph that can reach any other node of the directed graph.  
 
