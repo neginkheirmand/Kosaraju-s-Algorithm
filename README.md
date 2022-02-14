@@ -6,7 +6,7 @@ first lets define strongly connected graphs:
 
 a directed graph is an strongly connected graph if there is a path between all pairs of vertices, for example:
 
-![graph2](C:\Users\venus\Desktop\uni2\6th_SEMESTER\github\Kosaraju's Algorithm\images\graph2.png)
+![graph2](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2.png?raw=true)
 
 
 
@@ -16,19 +16,19 @@ for example if you start from the vertex a0:
 
 there will be a path to a3:
 
-![graph2- a0-a3](C:\Users\venus\Desktop\uni2\6th_SEMESTER\github\Kosaraju's Algorithm\images\graph2- a0-a3.png)
+![graph2- a0-a3](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2-%20a0-a3.png?raw=true)
 
   
 
 to a2:
 
-![graph2- a0-a2](C:\Users\venus\Desktop\uni2\6th_SEMESTER\github\Kosaraju's Algorithm\images\graph2- a0-a2.png)
+![graph2- a0-a2](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2-%20a0-a2.png?raw=true)
 
 
 
 and to a1:
 
-![graph2 - a0-a1](C:\Users\venus\Desktop\uni2\6th_SEMESTER\github\Kosaraju's Algorithm\images\graph2 - a0-a1.png)
+![graph2 - a0-a1](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2%20-%20a0-a1.png?raw=true)
 
 these are only some of the paths existent.
 
@@ -38,11 +38,11 @@ Another definition you will need to know is the transpose of a directed graph wh
 
 the graph:
 
- ![graph3](C:\Users\venus\Desktop\uni2\6th_SEMESTER\github\Kosaraju's Algorithm\images\graph3.png)
+ ![graph3](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph3.png?raw=true)
 
 transpose of the graph:
 
-![graph3_T](C:\Users\venus\Desktop\uni2\6th_SEMESTER\github\Kosaraju's Algorithm\images\graph3_T.png)
+![graph3_T](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph3_T.png?raw=true)
 
 
 
