@@ -12,17 +12,17 @@ a directed graph is a strongly connected graph if there is a path between all pa
 
 this graph is a strongly connected graph because no matter which vertex you chose there will always be a path to any other vertex of the graph. 
 
-for example if you start from the vertex a0:
+for example, if you start from the vertex a0:
 
 there will be a path to a3:
 
-![graph2- a0-a3](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2-%20a0-a3.png?raw=true)
+![graph2- a0-a3](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2%20-%20a0-a3.png?raw=true)
 
   
 
 to a2:
 
-![graph2- a0-a2](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2-%20a0-a2.png?raw=true)
+![graph2- a0-a2](https://github.com/neginkheirmand/Kosaraju-s-Algorithm/blob/master/images/graph2%20-%20a0-a2.png?raw=true)
 
 
 
