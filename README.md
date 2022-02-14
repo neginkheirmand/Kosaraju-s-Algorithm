@@ -2,7 +2,7 @@
 
 [Kosaraju](https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm) is a linear time algorithm to find the strongly connected components of a directed graph.
 
-first lets define strongly connected graphs:
+first, let's define strongly connected graphs:
 
 a directed graph is a strongly connected graph if there is a path between all pairs of vertices, for example:
 
@@ -32,7 +32,7 @@ and to a1:
 
 these are only some of the existing paths.
 
-Now you can probably tell what a strongly connected component is, its a node of the graph that can reach any other node of the directed graph.  
+Now you can probably tell what a strongly connected component is, it's a node of the graph that can reach any other node of the directed graph.  
 
 Another definition you will need to know is the transpose of a directed graph which is basically the same graph but with inverted edges or links.
 
